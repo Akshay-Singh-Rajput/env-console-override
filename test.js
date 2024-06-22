@@ -1,4 +1,4 @@
-const overWriteConsoleMethods = require('./index');
+const overWriteConsoleMethods = require('./dist/index');
 
 // overWriteConsoleMethods({
 //     logOptions: {

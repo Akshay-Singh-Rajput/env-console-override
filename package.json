@@ -2,8 +2,9 @@
     "name": "env-console-override",
     "version": "1.0.0",
     "description": "A package to customize console outputs based on the environment",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
+        "build": "babel index.js -o dist/index.js",
         "test": "node test.js"
     },
     "repository": {
@@ -16,10 +17,15 @@
         "environment",
         "customization"
     ],
-    "author": "Your Name",
+    "author": "Akshay Kumar",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Akshay-Singh-Rajput/env-console-override/issues"
     },
-    "homepage": "https://github.com/Akshay-Singh-Rajput/env-console-override#readme"
+    "homepage": "https://github.com/Akshay-Singh-Rajput/env-console-override#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.24.7",
+        "@babel/core": "^7.24.7",
+        "@babel/preset-env": "^7.24.7"
+    }
 }
