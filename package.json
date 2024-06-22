@@ -1,0 +1,25 @@
+{
+    "name": "env-console-override",
+    "version": "1.0.0",
+    "description": "A package to customize console outputs based on the environment",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Akshay-Singh-Rajput/env-console-override.git"
+    },
+    "keywords": [
+        "console",
+        "override",
+        "environment",
+        "customization"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Akshay-Singh-Rajput/env-console-override/issues"
+    },
+    "homepage": "https://github.com/Akshay-Singh-Rajput/env-console-override#readme"
+}
