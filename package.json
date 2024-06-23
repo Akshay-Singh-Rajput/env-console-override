@@ -1,6 +1,6 @@
 {
     "name": "env-console-override",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A package to customize console outputs based on the environment",
     "main": "dist/index.js",
     "scripts": {
@@ -27,5 +27,9 @@
         "@babel/cli": "^7.24.7",
         "@babel/core": "^7.24.7",
         "@babel/preset-env": "^7.24.7"
-    }
+    },
+    "files": [
+        "dist/",
+        "README.md"
+    ]
 }
